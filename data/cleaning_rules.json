@@ -1,0 +1,28 @@
+{
+  "base_rules": {
+    "ground_immediate_depth_m": 0.15,
+    "ground_sustained_depth_m": 0.06,
+    "ground_sustained_seconds": 0.2,
+    "torso_p95_error_deg": 80,
+    "limb_p95_error_deg": 110,
+    "mismatch_min_seconds": 0.3,
+    "collision_depth_m": 0.08,
+    "collision_sustained_seconds": 0.15,
+    "collision_visual_convex_hull_interior_m": 0.01,
+    "airborne_all_visual_mesh_clearance_m": 0.12,
+    "airborne_seconds": 0.6,
+    "nonballistic_vertical_acceleration_error_m_s2": 6,
+    "nonballistic_fraction": 0.8,
+    "source_root_speed_m_s": 18,
+    "source_limb_speed_m_s": 25,
+    "source_extreme_seconds": 0.2,
+    "source_bounded_jump_height_m": 1.8,
+    "ordinary_sliding_is_not_excluded": true,
+    "ordinary_pose_mismatch_is_not_excluded": true
+  },
+  "context_exclusion": {
+    "named_ladder_behaviors": true,
+    "unnamed_a000_028xxx": true,
+    "ordinary_jumps_and_crouches_unchanged": true
+  }
+}

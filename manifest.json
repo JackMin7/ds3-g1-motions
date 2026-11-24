@@ -1,0 +1,28 @@
+{
+  "version": "bvh-csv-v4-20261124",
+  "schema_version": "ds3-g1-bvh-csv-v1",
+  "motion_count": 3707,
+  "selection": "current v4 kept set only; no deduplication or clip stitching",
+  "motion_formats": [
+    "bvh",
+    "csv"
+  ],
+  "catalog_files": [
+    "catalog/batch_01.jsonl",
+    "catalog/batch_02.jsonl",
+    "catalog/batch_03.jsonl",
+    "catalog/batch_04.jsonl",
+    "catalog/batch_05.jsonl"
+  ],
+  "distribution": "complete project with motion files",
+  "motion_directory": "motions",
+  "numeric_data_in_git": true,
+  "numeric_uncompressed_bytes": 291025981,
+  "no_per_clip_npz_or_json": true,
+  "no_robot_models_or_game_asset_files": true,
+  "comparison_gifs": [
+    "docs/assets/comparison_locomotion.gif",
+    "docs/assets/comparison_combat.gif",
+    "docs/assets/comparison_praise_the_sun.gif"
+  ]
+}

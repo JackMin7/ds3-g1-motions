@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.zip
+*.mp4
+*.webm
+*.gif
+!docs/assets/*.gif
+*.hkx
+*.HKX
+*.npz
+*.blend*
+.venv*/
+.DS_Store
